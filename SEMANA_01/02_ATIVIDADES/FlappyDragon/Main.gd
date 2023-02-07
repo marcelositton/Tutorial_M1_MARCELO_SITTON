@@ -1,9 +1,9 @@
 extends Node # instancia a classe Node2D
 
-var status = 1
-var score = 0
-var x = 1.5 
-var y = 1.5 
+var status = 1 #zera a pontuação
+var vscore = 0 #define a pontuação inicial
+var x = 1.5 # define a velocidade do background
+var y = 1.5 # define a gravidade
 
 # executa essa função ao carregar o jogo
 func _ready():
